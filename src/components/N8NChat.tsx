@@ -14,7 +14,7 @@ const N8NChat = () => {
     script.textContent = `
       import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
       createChat({
-        webhookUrl: 'YOUR_PRODUCTION_WEBHOOK_URL',
+        webhookUrl: 'https://ashishchouhan.app.n8n.cloud/webhook/3c191680-b68c-4f88-ab82-66d9940bcb27/chat',
         initialMessages: [
           'Hey there! 👋',
           'I\\'m Jervis, your personal AI assistant. How can I help you today?'
