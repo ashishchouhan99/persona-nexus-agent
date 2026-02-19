@@ -16,14 +16,14 @@ const N8NChat = () => {
       createChat({
         webhookUrl: 'https://ashishchouhan.app.n8n.cloud/webhook/3c191680-b68c-4f88-ab82-66d9940bcb27/chat',
         initialMessages: [
-          'Hey there! 👋',
-          'I\\'m Jervis, your personal AI assistant. How can I help you today?'
+          'Hello! 👋',
+          'Welcome to IIST. I can help you with admissions, courses, campus life, and more!'
         ],
         i18n: {
           en: {
-            title: 'JERVIS',
-            subtitle: 'Personal AI Agent',
-            inputPlaceholder: 'Ask me anything...',
+            title: 'IIST Assistant',
+            subtitle: 'Admission & Campus Help',
+            inputPlaceholder: 'Ask about admissions, courses...',
             getStarted: 'Start Conversation',
             footer: '',
           },
